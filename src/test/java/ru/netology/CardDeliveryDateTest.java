@@ -48,5 +48,6 @@ public class CardDeliveryDateTest {
         $("[data-test-id='success-notification'] .notification__content")
                 .shouldHave(exactText("Встреча успешно запланирована на " + meetingDateSecond))
                 .shouldBe(visible);
+
     }
 }
