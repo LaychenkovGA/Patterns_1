@@ -1,9 +1,10 @@
-package ru.netology;
+package ru.netology.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
+import ru.netology.data.DataGenerator;
 
 import java.time.Duration;
 
